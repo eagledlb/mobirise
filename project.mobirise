@@ -85,7 +85,7 @@
           },
           "_anchor": "header2-3",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "45",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/11-2000x3555.jpg",
@@ -128,7 +128,7 @@
           },
           "title": "Call or email today for a free Estimate&nbsp;<br>360-748-1888",
           "text": "",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"mailto:americasairconnection.gmail.com\" data-toolbar=\"-mbrBtnMove\">Email</a> <a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://www.facebook.com/jeff.haines.9279?fref=ts\" data-toolbar=\"-mbrBtnMove\">Facebook</a> "
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"http://www.superpages.com/bp/chehalis-wa/americas-air-connection-L2623070865.htm\" data-toolbar=\"-mbrBtnMove\">Map</a> <a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"mailto:americasairconnection.gmail.com\" data-toolbar=\"-mbrBtnMove\">Email</a> <a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://www.facebook.com/jeff.haines.9279?fref=ts\" data-toolbar=\"-mbrBtnMove\">Facebook</a> "
         },
         {
           "_tags": [
