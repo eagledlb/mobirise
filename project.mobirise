@@ -21,8 +21,10 @@
       }
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 7,
-    "versionPublish": "3.10.5"
+    "uniqCompNum": 8,
+    "versionPublish": "3.10.5",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -128,7 +130,7 @@
           },
           "title": "Call or email today for a free Estimate&nbsp;<br>360-748-1888",
           "text": "",
-          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"http://www.superpages.com/bp/chehalis-wa/americas-air-connection-L2623070865.htm\" data-toolbar=\"-mbrBtnMove\">Map</a> <a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"mailto:americasairconnection.gmail.com\" data-toolbar=\"-mbrBtnMove\">Email</a> <a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://www.facebook.com/jeff.haines.9279?fref=ts\" data-toolbar=\"-mbrBtnMove\">Facebook</a> "
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"http://www.superpages.com/bp/chehalis-wa/americas-air-connection-L2623070865.htm\" data-toolbar=\"-mbrBtnMove\">Map</a> <a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"mailto:americasairconnection.gmail.com\" data-toolbar=\"-mbrBtnMove\">Email</a> <a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://www.facebook.com/jeff.haines.9279?fref=ts\" data-toolbar=\"-mbrBtnMove\">Facebook</a> "
         },
         {
           "_tags": [
@@ -233,6 +235,63 @@
           "_anchor": "gallery1-6",
           "articleLayout": false,
           "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-7",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#c0a375",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "",
+          "form": {
+            "action": "dlbathpc@msn.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
         }
       ]
     }
